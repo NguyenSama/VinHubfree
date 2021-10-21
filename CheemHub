@@ -2,7 +2,7 @@ if game:GetService("CoreGui"):FindFirstChild("FluxLib") then
     game:GetService("CoreGui"):FindFirstChild("FluxLib"):Destroy()
 end
 local Flux = {RainbowColorValue = 0, HueSelectionPosition = 0}
-local PresetColor = Color3.fromRGB(255,0,0)
+local PresetColor = Color3.fromRGB(66, 134, 255)
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -2749,7 +2749,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	end
 	return Tabs
 end
-local win = Flux:Window("Cheem hub", "Blox Fruit", _G.Color, Enum.KeyCode.RightControl)
+local win = Flux:Window("Cheem Banh", "Boblox best script:)))", _G.Color, Enum.KeyCode.RightControl)
 local tab = win:Tab("AutoFarm", "")
 local Stats = win:Tab("Stats", "")
 local e = win:Tab("Setting AutoFarm", "")
